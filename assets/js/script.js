@@ -13,7 +13,6 @@ const fetchAlbums = async () => {
     }
 };
 
-// Función para mostrar los primeros 20 títulos de álbumes en el HTML
 const showFirst20Titles = async () => {
     const albums = await fetchAlbums(); // Llamar a la función para obtener los datos
     const albumList = document.getElementById('album-list'); // Obtener el contenedor de la lista en el HTML
